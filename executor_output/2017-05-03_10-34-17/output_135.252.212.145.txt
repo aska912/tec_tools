@@ -1,0 +1,16 @@
+show interface 6/5/L1 pm fecpm 0 0
+
+Group: Forward Error Correction Performance Monitoring Group  Interval: 0  Bin: 0  Location: 6/5/L1
+-------------------------------------------------------------------------------
+Port is unassigned
+
+
+show interface 6/7/L1 pm berprefec 0 0
+
+Group: Pre Forward Error Correction BER Performance Monitoring Group  Interval: 0  Bin: 0  Location: 6/7/L1
+-------------------------------------------------------------------------------
+Start Time                     : 2017/06/23 06:00:00 (UTC)
+Bin Status                     : Valid
+Rx BER to be calculated from FEC-EC and FEC-UBC  : 0.00E+00
+
+

@@ -1,0 +1,20 @@
+show interface 1/2/OSC pm sdh 0 0
+
+Group: SDH  Interval: 0  Bin: 0  Location: 1/2/OSC
+-------------------------------------------------------------------------------
+Start Time                    : 2017/06/21 14:00:00  (GMT+8)
+Bin Status                    : Valid               
+Rx RSEB                       :                    0
+Rx RSES                       :                    0
+Rx RSSES                      :                    0
+Rx RSUAS                      :                    0
+Rx MSEB                       :                    0
+Rx MSES                       :                    0
+Rx MSSES                      :                    0
+Rx MSUAS                      :                    0
+Rx Far-End  MSEB              :                    0
+Rx Far-End  MSES              :                    0
+Rx Far-End  MSSES             :                    0
+Rx Far-End  MSUAS             :                    0
+
+

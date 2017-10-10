@@ -1,0 +1,127 @@
+show interface 1/7/C8 pm ethernet raw 
+
+Group: Ethernet  Location: 1/7/C8
+-------------------------------------------------------------------------------
+Start Time                    : 2017/04/26 14:52:45  (CST)
+Rx Octets                     :                    0
+Rx Packets                    :                    0
+Rx Broadcast Packets          :                    0
+Rx Multicast Packets          :                    0
+Rx CRC Alignment Errors       :                    0
+Rx Undersized Packets         :                    0
+Rx Packet Error Ratio         :                    0
+Tx Octets                     :                    0
+Tx Packets                    :                    0
+Tx Broadcast Packets          :                    0
+Tx Multicast Packets          :                    0
+Tx CRC Alignment Errors       :                    0
+Tx Undersized Packets         :                    0
+Tx Packet Error Ratio         :                    0
+
+
+show interface 1/7/C8 pm pcs raw 
+
+Group: Physical Code Sub Layer  Location: 1/7/C8
+-------------------------------------------------------------------------------
+Start Time                    : 2017/04/26 14:52:46  (CST)
+Rx CV_PCS                     :                    0
+Rx ES_PCS                     :                70048
+Rx SES_PCS                    :                70048
+Rx SEFS_PCS                   :                70048
+Tx CV_PCS                     :                    0
+Tx ES_PCS                     :                70048
+Tx SES_PCS                    :                70048
+Tx SEFS_PCS                   :                70048
+
+
+show interface 1/7/C8 pm sonet raw 
+
+Group: SONET  Location: 1/7/C8
+-------------------------------------------------------------------------------
+Start Time                    : 2017/04/26 14:52:46  (CST)
+Rx CVS                        :                    0
+Rx ESS                        :                    0
+Rx SESS                       :                    0
+Rx SEFSS                      :                    0
+
+
+show interface 1/7/C8 pm sdh raw 
+
+Error: command not found: sdh
+
+
+show interface 4/7/L1 pm dw raw 
+
+Group: Digital Wrapper  Location: 4/7/L1
+-------------------------------------------------------------------------------
+-----------------------------------------------------------------
+Start Time                                        : 2017/04/26 14:53:29 (CST)
+Rx RS Corrected Count                             :                    2
+Rx RS Uncorrected Count                           :                    0
+Rx SMBIP8 Error Count                             :                    0
+Rx PMBIP8 Error Count                             :                    0
+Rx SM Errored Seconds                             :                    0
+Rx PM Errored Seconds                             :                    0
+Rx SM Severely Errored Seconds                    :                    0
+Rx PM Severely Errored Seconds                    :                    0
+Rx SM Unavailable Seconds                         :                    0
+Rx PM Unavailable Seconds                         :                    0
+Rx Far End OTUk Background Block Error            :                    0
+Rx Far End ODUk Background Block Error            :                    0
+Rx Far End OTUk Errored Seconds                   :                    0
+Rx Far End ODUk Errored Seconds                   :                    0
+Rx Far End OTUk Severely Errored Seconds          :                    0
+Rx Far End ODUk Severely Errored Seconds          :                    0
+Rx Far End OTUk Unavailable Seconds               :                    0
+Rx Far End ODUk Unavailable Seconds               :                    0
+Rx OTUk Backward Incoming Alignment Error Seconds :                    0
+Rx OTUk Incoming Alignment Errored Seconds        :                    0
+Rx BER to be calculated from FEC-EC and FEC-UBC   : 3.16E-16
+Rx BER to be calculated from FEC-UBC              : 0.00E+00
+
+
+show interface 4/7/L1 pm ethernet raw 
+
+Group: Ethernet  Location: 4/7/L1
+-------------------------------------------------------------------------------
+Start Time                    : 2017/04/26 14:53:30  (CST)
+Rx Drop Events                :                    0
+Rx Octets                     :       73393753161686
+Rx Packets                    :          15831252842
+Rx Broadcast Packets          :                    0
+Rx Multicast Packets          :                    0
+Rx CRC Alignment Errors       :                 1861
+Rx Undersized Packets         :                    0
+Rx Oversized Packets          :          13317179763
+Rx Fragments                  :                  292
+Rx Jabbers                    :                    0
+Rx Collisions                 :                    0
+Rx Packets 64 Bytes           :                   87
+Rx Packets 65 to 127 Bytes    :            103957939
+Rx Packets 128 to 255 Bytes   :            221780326
+Rx Packets 256 to 511 Bytes   :            443556797
+Rx Packets 512 to 1023 Bytes  :            887117993
+Rx Packets 1024 to 1518 Bytes :            857659649
+Rx Jumbo Packets              :          13317179763
+Rx Packet Error Ratio         :                    0
+Tx DropEvents                 :                    0
+Tx Octets                     :       73392245049271
+Tx Packets                    :          15824114871
+Tx Broadcast Packets          :                    0
+Tx Multicast Packets          :                    0
+Tx CRC Alignment Errors       :                    0
+Tx Undersized Packets         :                    0
+Tx Oversized Packets          :          13317005224
+Tx Fragments                  :                    0
+Tx Jabbers                    :                    0
+Tx Collisions                 :                    0
+Tx Packets 64 Bytes           :                    0
+Tx Packets 65 to 127 Bytes    :             97028455
+Tx Packets 128 to 255 Bytes   :            221776875
+Tx Packets 256 to 511 Bytes   :            443556718
+Tx Packets 512 to 1023 Bytes  :            887102052
+Tx Packets 1024 to 1518 Bytes :            857645550
+Tx Jumbo Packets              :          13317005224
+Tx Packet Error Ratio         :                    0
+
+

@@ -1,0 +1,55 @@
+show interface 1/10/L1 pm cd 0 0
+
+Group: CD  Interval: 0  Bin: 0  Location: 1/10/L1
+-------------------------------------------------------------------------------
+Start Time                     :  (UTC)
+Bin Status                     : Not Available
+CD Min (ps/nm)                 :                     
+CD Max (ps/nm)                 :                     
+CD Average (ps/nm)             :                     
+
+
+show interface 1/10/L1 pm dgd 0 0
+
+Group: DGD  Interval: 0  Bin: 0  Location: 1/10/L1
+-------------------------------------------------------------------------------
+Start Time                    :  (UTC)
+Bin Status                    : Not Available
+DGD Min (ps)                  :                     
+DGD Max (ps)                  :                     
+DGD Average (ps)              :                     
+
+
+show interface 1/10/L1 pm foff 0 0
+
+Group: FOFF  Interval: 0  Bin: 0  Location: 1/10/L1
+-------------------------------------------------------------------------------
+Start Time                     :  (UTC)
+Bin Status                     : Not Available
+FOFF Min (GHz)                 :                     
+FOFF Max (GHz)                 :                     
+FOFF Average (GHz)             :                     
+
+
+show interface 1/10/L1 pm opr 0 0
+
+Group: OPR  Interval: 0  Bin: 0  Location: 1/10/L1
+-------------------------------------------------------------------------------
+Start Time                    :  (UTC)
+Bin Status                    : Not Available
+OPR Min (dBm)                 :                     
+OPR Max (dBm)                 :                     
+OPR Average (dBm)             :                     
+
+
+show interface 1/10/L1 pm opt 0 0
+
+Group: OPT  Interval: 0  Bin: 0  Location: 1/10/L1
+-------------------------------------------------------------------------------
+Start Time                    : 2017/06/03 14:00:00 (UTC)
+Bin Status                    : Valid
+OPT Min (dBm)                 :                 1.58
+OPT Max (dBm)                 :                 1.59
+OPT Average (dBm)             :                 1.58
+
+

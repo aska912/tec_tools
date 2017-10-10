@@ -1,0 +1,217 @@
+show interface 1/13/L1 pm dw 0 0
+
+Group: Digital Wrapper  Interval: 0  Bin: 0  Location: 1/13/L1
+-------------------------------------------------------------------------------
+-----------------------------------------------------------------
+Start Time                                        : 2017/05/30 01:45:00 (UTC)
+Bin Status                                        : Valid
+Rx RS Corrected Count                             :                    0
+Rx RS Uncorrected Count                           :                    0
+Rx SMBIP8 Error Count                             :                    0
+Rx PMBIP8 Error Count                             :                    0
+Rx SM Errored Seconds                             :                    0
+Rx PM Errored Seconds                             :                    0
+Rx SM Severely Errored Seconds                    :                    0
+Rx PM Severely Errored Seconds                    :                    0
+Rx SM Unavailable Seconds                         :                    0
+Rx PM Unavailable Seconds                         :                    0
+Rx Far End OTUk Background Block Error            :                    0
+Rx Far End ODUk Background Block Error            :                    0
+Rx Far End OTUk Errored Seconds                   :                    0
+Rx Far End ODUk Errored Seconds                   :                    0
+Rx Far End OTUk Severely Errored Seconds          :                    0
+Rx Far End ODUk Severely Errored Seconds          :                    0
+Rx Far End OTUk Unavailable Seconds               :                    0
+Rx Far End ODUk Unavailable Seconds               :                    0
+Rx OTUk Backward Incoming Alignment Error Seconds :                    0
+Rx OTUk Incoming Alignment Errored Seconds        :                    0
+Rx BER to be calculated from FEC-EC and FEC-UBC   : 0.00E+00
+Rx BER to be calculated from FEC-UBC              : 0.00E+00
+
+
+show interface 1/13/L1 pm ethernet 0 0
+
+Group: Ethernet  Interval: 0  Bin: 0  Location: 1/13/L1
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00  (UTC)
+Bin Status                    : Valid               
+Rx Drop Events                :                    0
+Rx Octets                     :                    0
+Rx Packets                    :                    0
+Rx Broadcast Packets          :                    0
+Rx Multicast Packets          :                    0
+Rx CRC Alignment Errors       :                    0
+Rx Undersized Packets         :                    0
+Rx Oversized Packets          :                    0
+Rx Fragments                  :                    0
+Rx Jabbers                    :                    0
+Rx Collisions                 :                    0
+Rx Packets 64 Bytes           :                    0
+Rx Packets 65 to 127 Bytes    :                    0
+Rx Packets 128 to 255 Bytes   :                    0
+Rx Packets 256 to 511 Bytes   :                    0
+Rx Packets 512 to 1023 Bytes  :                    0
+Rx Packets 1024 to 1518 Bytes :                    0
+Rx Jumbo Packets              :                    0
+Rx Packet Error Ratio         :                    0
+Tx DropEvents                 :                    0
+Tx Octets                     :                    0
+Tx Packets                    :                    0
+Tx Broadcast Packets          :                    0
+Tx Multicast Packets          :                    0
+Tx CRC Alignment Errors       :                    0
+Tx Undersized Packets         :                    0
+Tx Oversized Packets          :                    0
+Tx Fragments                  :                    0
+Tx Jabbers                    :                    0
+Tx Collisions                 :                    0
+Tx Packets 64 Bytes           :                    0
+Tx Packets 65 to 127 Bytes    :                    0
+Tx Packets 128 to 255 Bytes   :                    0
+Tx Packets 256 to 511 Bytes   :                    0
+Tx Packets 512 to 1023 Bytes  :                    0
+Tx Packets 1024 to 1518 Bytes :                    0
+Tx Jumbo Packets              :                    0
+Tx Packet Error Ratio         :                    0
+
+
+show interface 1/13/C2 pm pcs 0 0
+
+Group: Physical Code Sub Layer  Interval: 0  Bin: 0  Location: 1/13/C2
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00  (UTC)
+Bin Status                    : Valid               
+Rx CV_PCS                     :                    0
+Rx ES_PCS                     :                    0
+Rx SES_PCS                    :                    0
+Rx SEFS_PCS                   :                    0
+
+
+show otu 1/8/L1 pm otupm 0 0
+
+Group: OTU Stats  Interval: 0  Bin: 0  Location: 1/8/L1
+-------------------------------------------------------------------------------
+Start Time                     : 2017/05/30 01:45:00 (UTC)
+Bin Status                     : Valid
+Rx RS Corrected Count                            : 0
+Rx RS Uncorrected Count                          : 0
+Rx BER to be calculated from FEC-EC and FEC-UBC  : 0.00E+00
+Rx BER to be calculated from FEC-UBC             : 0.00E+00
+Rx SM BIP8 Error Count                           : 0
+Rx SM Errored Seconds                            : 0
+Rx SM Severely Errored Seconds                   : 0
+Rx SM Unavailable Seconds                        : 0
+Rx SM Incoming Alignment Error Seconds           : 0
+Rx SM FarEnd BIP8 Error Count                    : 0
+Rx SM FarEnd Errored Seconds                     : 0
+Rx SM FarEnd Severely Errored Seconds            : 0
+Rx SM FarEnd Unavailable Seconds                 : 0
+Rx SM FarEnd Incoming Alignment Error Seconds    : 0
+
+
+show interface 1/3/Line pm opin 0 0
+
+Group: OPIN  Interval: 0  Bin: 0  Location: 1/3/LINE
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00 (UTC)
+Bin Status                    : Valid
+OPIN Min (dBm)                :                -0.90
+OPIN Max (dBm)                :                -0.90
+OPIN Average (dBm)            :                -0.90
+
+
+show interface 1/3/Line pm opout 0 0
+
+Group: OPOUT  Interval: 0  Bin: 0  Location: 1/3/LINE
+-------------------------------------------------------------------------------
+Start Time                     : 2017/05/30 01:45:00 (UTC)
+Bin Status                     : Valid
+OPOUT Min (dBm)                :                 9.50
+OPOUT Max (dBm)                :                 9.53
+OPOUT Average (dBm)            :                 9.52
+
+
+show interface 1/3/Line pm opochin 0 0
+
+Group: OPOCHIN  Interval: 0  Bin: 0  Location: 1/3/LINE
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00 (UTC)
+Bin Status                    : Valid
+Channel      Min Power       Max Power       Average Power
+-----------------------------------------------------------
+9235.000     -13.02          -12.97          -12.99
+9250.000     -40.00          -40.00          N/A
+9260.000     -40.00          -40.00          N/A
+9270.000     -40.00          -40.00          N/A
+9280.000     -40.00          -40.00          N/A
+9330.000     -12.62          -12.59          -12.61
+9335.000     -12.92          -12.89          -12.90
+9340.000     -40.00          -40.00          N/A
+9470.000     -11.65          -11.63          -11.64
+9520.000     -40.00          -40.00          N/A
+9570.000     -14.40          -14.38          -14.39
+
+
+show interface 1/3/Line pm opochout 0 0
+
+Group: OPOCHOUT  Interval: 0  Bin: 0  Location: 1/3/LINE
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00 (UTC)
+Bin Status                    : Valid
+Channel      Min Power       Max Power       Average Power
+-----------------------------------------------------------
+9235.000     -1.11           -1.09           -1.10
+9250.000     -0.05           -0.03           -0.03
+9260.000     0.27            0.29            0.28
+9270.000     -0.11           -0.09           -0.10
+9280.000     -0.24           -0.22           -0.23
+9330.000     -1.75           -1.72           -1.74
+9335.000     -1.76           -1.74           -1.75
+9340.000     -1.91           -1.87           -1.89
+9470.000     -1.77           -1.68           -1.71
+9520.000     -1.54           -1.51           -1.52
+9570.000     -3.34           -3.31           -3.33
+
+
+show interface 1/3/OSC pm interface 0 0
+
+Group: Interface  Interval: 0  Bin: 0  Location: 1/3/OSC
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00 (UTC)
+Bin Status                    : Valid
+In Octets                     :                11164
+In Unicast Packets            :                  160
+In Discards                   :                    0
+In Errors                     :                    0
+In Unknown Protocols          :                    0
+In Multicast Packets          :                    0
+In Broadcast Packets          :                    0
+In Packets Not Classified     :                    0
+Out Octets                    :               607478
+Out Unicast Packets           :                 7044
+Out Discards                  :                    0
+Out Errors                    :                    0
+Out Multicast Packets         :                  410
+Out Broadcast Packets         :                 1370
+
+
+show interface 1/3/OSC pm sonet 0 0
+
+Group: SONET  Interval: 0  Bin: 0  Location: 1/3/OSC
+-------------------------------------------------------------------------------
+Start Time                    : 2017/05/30 01:45:00  (UTC)
+Bin Status                    : Valid               
+Rx CVS                        :                    0
+Rx ESS                        :                    0
+Rx SESS                       :                    0
+Rx SEFSS                      :                    0
+Rx CVL                        :                    0
+Rx ESL                        :                    0
+Rx SESL                       :                    0
+Rx UASL                       :                    0
+Rx Far-End  CVL               :                    0
+Rx Far-End  ESL               :                    0
+Rx Far-End  SESL              :                    0
+Rx Far-End  UASL              :                    0
+
+
